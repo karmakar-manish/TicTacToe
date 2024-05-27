@@ -6,4 +6,4 @@ To run this simply open the index.html file.
 
 
 
-Created by - Manish karmakar (26 May 2024)
+Created by - Manish Karmakar (26 May 2024)
