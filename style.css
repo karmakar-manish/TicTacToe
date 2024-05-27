@@ -1,0 +1,67 @@
+.box{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #59af87;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify content for centering in the horizontal direc */
+    /* align item for vertical centering */
+    justify-content: center;    
+    align-items: center;
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 1.5vmin;
+}
+
+.box{
+    /* since we want 3 boxes to be in a row (60/20 = 3) */
+    height: 18vmin; 
+    width: 18vmin;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 8vmin;
+    color: #c04133;
+    background-color: rgb(243, 241, 133);
+}
+
+.resetBtn, .newGame{
+    padding: 10px;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    color: white;
+    background-color: #191913;
+    border: none;
+}
+
+.winnerClass{
+    /* border: 2px solid red; */
+    height: 100vmin;
+}
+
+.winner{
+    font-size: 80px;
+    color: rgb(243, 241, 133);
+}
+
+.hide{
+    display: none;
+}
+
